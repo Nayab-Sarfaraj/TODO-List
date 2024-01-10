@@ -2,11 +2,16 @@
 <br />
 This is a simple Todo application built using React. It allows users to add tasks, delete tasks, and edit existing tasks.
 <br />
+<br />
+<br />
 > Features
+<br />
 <br />
 - Add Task: Easily add new tasks to the list.
 - Delete Task: Remove unwanted tasks from the list.
 - Edit Task: Modify the content of existing tasks.
+<br />
+<br />
 <br />
 > Getting Started
 <br />
@@ -22,18 +27,8 @@ This is a simple Todo application built using React. It allows users to add task
 3. Install dependencies: npm install
 <br />
 4. Start the development server: npm start
-
-
-
-
-
-
-
-
-
-
-
-
+<br />
+<br />
 
 
 
