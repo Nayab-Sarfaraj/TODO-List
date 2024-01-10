@@ -8,9 +8,9 @@ This is a simple Todo application built using React. It allows users to add task
 <br />
 <br />
 - Add Task: Easily add new tasks to the list.
-- <br />
+ <br />
 - Delete Task: Remove unwanted tasks from the list.
-- 
+  <br />
 - Edit Task: Modify the content of existing tasks.
 <br />
 <br />
