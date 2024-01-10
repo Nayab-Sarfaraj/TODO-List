@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-const Form = ({ onSubmit, editedTask }) => {
+const Form = ({ onSubmit, editedTask ,updateTask}) => {
   const initialstate = {
     task: "",
     description: "",
@@ -9,9 +9,19 @@ const Form = ({ onSubmit, editedTask }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    if(editedTask){
+        updateTask(task)
+        setTask(initialstate)
 
-    onSubmit(task);
-    setTask(initialstate);
+    }else{
+
+      
+
+        onSubmit(task);
+        setTask(initialstate);
+        
+    }
+
   };
   const hanleChange= (e)=>{
   
@@ -57,7 +67,7 @@ const Form = ({ onSubmit, editedTask }) => {
    
       />
       <button className="text-xl bg-slate-300 text-black px-2 py-1 hover:bg-slate-200">
-        Add
+        {editedTask?'EDIT':'ADD'}
       </button>
     </form>
   );
