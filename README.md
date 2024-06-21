@@ -32,7 +32,6 @@ This is a simple Todo application built using React. It allows users to add task
 4. Start the development server: npm start
 <br />
 <br />
-CHangrdf the  contrent of the tode
 
 # Getting Started with Create React App
 
