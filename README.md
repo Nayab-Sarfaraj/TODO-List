@@ -20,10 +20,7 @@ This is a simple Todo application built using React. It allows users to add task
 <br />
 >To run this application locally, follow these steps:
 <br />
-1. Clone this repository:
-<br />
-   ```bash
-   git clone https://github.com/your-username/todo-app.git
+1. Clone this repository: bash git clone https://github.com/your-username/todo-app.git
 <br />
 2. Navigate to the project directory: cd todo-app
 <br />
